@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
@@ -66,7 +67,52 @@ footer div{
 footer a{
   color: #024e76;
 }
-section {
-  padding: 60px;
-  background-image: url();
+/* hero starts here */
+.hero {
+  padding: 50px;
+  background-image: url("https://raw.githubusercontent.com/garcia3325/run-buddy/cb69d54b9fea48c8c44819fb1d85c70de6074d47/assets/css/images/hero-bg.jpeg");
+  height: 600px;
+  background-size:cover;
+  background-position: center;
 }
+  .hero-form {
+    border: 3px solid #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    position: relative;
+    right: -550px;
+  }
+  .hero-form-h3 {
+ font-size: 24px;
+  margin: 0px;
+  color:#024e76;
+}
+  .form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 15px;
+    color:#024e76;
+  }
+  .form-p-tags{
+    color: #024e76;
+   font: size 10px;
+   margin-top: 5px;
+   margin-bottom: 12px;
+  }
+.form-label {
+  color: #024e76;
+}
+#running-button {
+  background-color: #024e76;
+  color: #fce139;
+  border:none;
+  font-size: medium;
+  padding: 15px 20px;
+  margin-top: 15px;
+}
+
+/*hero ends here */
