@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -51,72 +50,129 @@ footer {
   padding: 25px 25px;
 }
 
-footer h2{
+footer h2 {
   display: inline;
   color: #024e76;
   font-size: 25px;
   margin: 0;
 }
 
-footer div{
-  float:right;
+footer div {
+  float: right;
   line-height: 1.5;
   text-align: right;
 }
 
-footer a{
+footer a {
   color: #024e76;
 }
 
 section {
- padding: 60px; 
+  padding: 60px;
 }
 /* hero starts here */
 .hero {
   padding: 50px;
   background-image: url("https://raw.githubusercontent.com/garcia3325/run-buddy/cb69d54b9fea48c8c44819fb1d85c70de6074d47/assets/css/images/hero-bg.jpeg");
   height: 550px;
-  background-size:cover;
+  background-size: cover;
   background-position: center;
 }
-  .hero-form {
-    border: 3px solid #024e76;
-    background-color: #fce138;
-    padding: 20px;
-    width: 500px;
-    position: relative;
-    right: -550px;
-  }
-  .hero-form-h3 {
- font-size: 24px;
-  margin: 0px;
-  color:#024e76;
+.hero-form {
+  border: 3px solid #024e76;
+  background-color: #fce138;
+  padding: 20px;
+  width: 500px;
+  position: relative;
+  right: -550px;
 }
-  .form-input {
-    border: 1px solid #024e76;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    width: 100%;
-    margin-bottom: 15px;
-    color:#024e76;
-  }
-  .form-p-tags{
-    color: #024e76;
-   font: size 10px;
-   margin-top: 5px;
-   margin-bottom: 12px;
-  }
+.hero-form-h3 {
+  font-size: 24px;
+  margin: 0px;
+  color: #024e76;
+}
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+  color: #024e76;
+}
+.form-p-tags {
+  color: #024e76;
+  font: size 10px;
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
 .form-label {
   color: #024e76;
 }
 #running-button {
   background-color: #024e76;
-  color: #fce139;
-  border:none;
+  color: #fce138;
+  border: none;
   font-size: medium;
   padding: 15px 20px;
   margin-top: 15px;
 }
+/* hero ends here */
 
-/*hero ends here */
+/* intro section */
+
+.intro {
+  text-align: center;  
+}
+/* What we do */
+.p-intro {
+  line-height: 1.7;
+  color: #39a6b2;
+  width: 80%;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+  border-color: #fce138;
+}
+/* what we do */
+.steps {
+  text-align: center;
+  background-color: #fce138;
+  margin-bottom: 80px;
+}
+.steps-h2 {
+  font-size: 55px;
+  color: #024e76;
+  margin-bottom: 35px;
+  padding: 0 100px 20px 100px;
+  display: inline-block;
+  border-bottom: 3px solid;
+  border-color: #39a6b2;
+}
+
+.steps-img {
+  width: 15%;
+  margin: 10px 0;
+  margin-bottom: 15px;
+}
+.steps-h3 {
+  color: #024e76;
+  font-size: 38px;
+  margin-top: 10px;
+}
+.steps-p {
+  color: #39a6b2;
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+.steps span {
+  font-size: 38px;
+}
