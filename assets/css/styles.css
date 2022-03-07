@@ -67,11 +67,15 @@ footer div{
 footer a{
   color: #024e76;
 }
+
+section {
+ padding: 60px; 
+}
 /* hero starts here */
 .hero {
   padding: 50px;
   background-image: url("https://raw.githubusercontent.com/garcia3325/run-buddy/cb69d54b9fea48c8c44819fb1d85c70de6074d47/assets/css/images/hero-bg.jpeg");
-  height: 600px;
+  height: 550px;
   background-size:cover;
   background-position: center;
 }
