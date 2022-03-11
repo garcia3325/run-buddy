@@ -122,7 +122,7 @@ section {
 /* intro section */
 
 .intro {
-  text-align: center;  
+  text-align: center;
 }
 /* What we do */
 .p-intro {
@@ -142,7 +142,6 @@ section {
   display: inline-block;
   border-bottom: 3px solid;
   border-color: #fce138;
-  
 }
 /* what we do */
 .steps {
