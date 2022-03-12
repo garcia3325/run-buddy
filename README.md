@@ -10,3 +10,5 @@ https://garcia3325.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Rene Garcia
+
+### ©️2019 Run Buddy, Inc 
